@@ -39,10 +39,10 @@ What you need to get started, these commands are designed to work on arch linux,
 ### 3. Clone the Repo
 ```
 git clone git@github.com:Common7/the-usable-dotfiles.git
-cd ~/.dotfiles
+cd the-usable-dotfiles
 ```
 
-### 3. Symlink configs
+### 4. Symlink configs
 ```
 stow btop fish gtk mangowm waybar
 ```
