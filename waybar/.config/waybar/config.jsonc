@@ -1,0 +1,6 @@
+{
+  "layer": "top",
+  "modules-left": ["ext/workspaces"],
+  "modules-center": ["clock", "custom/notifications"],
+  "modules-right": ["wireplumber", "network", "bluetooth", "battery", "custom/system", "tray"],
+}
