@@ -11,3 +11,7 @@ awww-daemon &
 
 # Policy Kit
 /usr/lib/polkit-kde-authentication-agent-1 &
+
+# XDG stuff
+/usr/lib/xdg-desktop-portal-wlr &
+

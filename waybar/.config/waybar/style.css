@@ -1,0 +1,143 @@
+@import "colors.css";
+
+* {
+    font-family: "Google Sans Flex", "JetBrainsMono Nerd Font Propo";
+    font-size: 16px;
+}
+
+window#waybar {
+    background-color: transparent;
+    padding: 0px;
+}
+
+#tags {
+    background: @bg-dark;
+    margin: 2px 18px 3px 1px;
+    padding: 0px 2px;
+    font-weight: bold;
+    font-style: normal;
+    opacity: 1.0;
+    color: @fg-dark;
+}
+
+#tags button {
+    padding: 0px 6px;
+    margin: 3px 2px;
+    color: @fg-dim;
+    border-radius: 0px;
+    background: @bg-medium;
+    transition: all 0.2s linear;
+    opacity: 1;
+}
+
+#tags button.empty {
+    color: @fg-dim;
+    background: @bg-medium;
+}
+
+#tags button.occupied {
+    color: @fg-dark;
+    background-color: @bg-dark;
+}
+
+#tags button.focused {
+    color: @fg-dark;
+    background: @blue;
+    min-width: 30px;
+    transition: all 0.2s linear;
+    opacity: 1.0;
+}
+
+#clock {
+    background-color: @bg-dark;
+    font-size: 16px;
+    font-weight: bold;
+    color: @green;
+    padding: 1px 10px 0px 10px;
+    margin: 3px 0px 3px 0px;
+    opacity:1.0;
+}
+
+#wireplumber {
+    background-color: @bg-dark;
+    font-size: 16px;
+    font-weight: bold;
+    color: @orange;
+    padding: 1px 10px 0px 10px;
+    margin: 3px 0px 3px 0px;
+    opacity:1.0;
+}
+
+#network {
+    background-color: @bg-dark;
+    font-size: 16px;
+    font-weight: bold;
+    color: @yellow;
+    padding: 1px 10px 0px 10px;
+    margin: 3px 0px 3px 0px;
+    opacity:1.0;
+}
+
+#bluetooth {
+    background-color: @bg-dark;
+    font-size: 16px;
+    font-weight: bold;
+    color: @aqua;
+    padding: 1px 10px 0px 10px;
+    margin: 3px 0px 3px 0px;
+    opacity:1.0;
+}
+
+/* MAIN POWER BUTTON */
+#custom-power {
+    background-color: @bg-dark;
+    font-size: 16px;
+    font-weight: bold;
+    color: @red;
+    padding: 1px 10px 0px 10px;
+    margin: 3px 0px 3px 0px; /* Standard margin, flush on the left */
+    opacity: 1.0;
+}
+
+/* INDIVIDUAL DRAWER BUTTONS */
+#custom-quit, 
+#custom-lock, 
+#custom-reboot {
+    background-color: @bg-dark;
+    font-size: 16px;
+    font-weight: bold;
+    color: @fg-dark;
+    padding: 1px 10px 0px 10px;
+    margin: 3px 0px 3px 0px;
+    opacity: 1.0;
+}
+
+#hardware {
+    background-color: @bg-dark;
+    font-size: 16px;
+    font-weight: bold;
+    color: @aqua;
+    padding: 1px 10px 0px 10px;
+    margin: 3px 0px 3px 0px;
+    opacity:1.0;
+}
+
+#cpu {
+    background-color: @bg-dark;
+    font-size: 16px;
+    font-weight: bold;
+    color: @aqua;
+    padding: 1px 10px 0px 10px;
+    margin: 3px 0px 3px 0px;
+    opacity:1.0;
+}
+
+#memory {
+    background-color: @bg-dark;
+    font-size: 16px;
+    font-weight: bold;
+    color: @purple;
+    padding: 1px 10px 0px 10px;
+    margin: 3px 0px 3px 0px;
+    opacity:1.0;
+}
